@@ -93,12 +93,12 @@ ENDIF
 
 IF NOT(_NES_VERSION)
 
- LDX K%+NI%+4,Y         \ Set Q = the Y+2-th byte of K%+NI%, i.e. vect_z
+ LDX K%+NI%+4,Y         \ Set Q = the Y+4-th byte of K%+NI%, i.e. vect_z
  STX Q
 
 ELIF _NES_VERSION
 
- LDX K%+NIK%+4,Y        \ Set Q = the Y+2-th byte of K%+NIK%, i.e. vect_z
+ LDX K%+NIK%+4,Y        \ Set Q = the Y+4-th byte of K%+NIK%, i.e. vect_z
  STX Q
 
 ENDIF
