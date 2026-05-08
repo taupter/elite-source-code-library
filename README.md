@@ -6,6 +6,7 @@ This repository contains a source code library that is used as a single source o
 
 * [BBC Micro (cassette) Elite source code](https://github.com/markmoxon/elite-source-code-bbc-micro-cassette)
 * [BBC Micro (disc) Elite source code](https://github.com/markmoxon/elite-source-code-bbc-micro-disc)
+* [Elite Demonstration Disc source code](https://github.com/markmoxon/elite-demo-source-code-bbc-micro)
 * [Acorn Electron Elite source code](https://github.com/markmoxon/elite-source-code-acorn-electron)
 * [6502 Second Processor Elite source code](https://github.com/markmoxon/elite-source-code-6502-second-processor)
 * [Commodore 64 Elite source code](https://github.com/markmoxon/elite-source-code-commodore-64)
@@ -39,6 +40,8 @@ BBC Micro Elite was written by Ian Bell and David Braben and is copyright &copy;
 The BBC Micro cassette code on this site is identical to the source discs released on [Ian Bell's personal website](http://www.elitehomepage.org/) (it's just been reformatted to be more readable).
 
 The BBC Micro disc code on this site has been reconstructed from a disassembly of the version released on [Ian Bell's personal website](http://www.elitehomepage.org/).
+
+The Elite Demonstration Disc code on this site has been reconstructed from a disassembly of the version released on [Ian Bell's personal website](http://www.elitehomepage.org/).
 
 Acorn Electron Elite was written by Ian Bell and David Braben and is copyright &copy; Acornsoft 1984.
 
