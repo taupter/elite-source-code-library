@@ -47,6 +47,7 @@
                         \ See the memory map at the top of page 264 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
  SEI                    \ Disable interrupts while we read the keyboard matrix
 
  STX &DC00              \ Set &DC00 = X to select the column in the keyboard
@@ -81,6 +82,7 @@
                         \ See the memory map at the top of page 265 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
  TXA                    \ Copy the result from X into A
 
  RTS                    \ Return from the subroutine

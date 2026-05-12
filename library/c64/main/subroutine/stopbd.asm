@@ -58,6 +58,7 @@ ENDIF
                         \ See the memory map at the top of page 264 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
  LDA #0                 \ Set MUPLA to 0 to indicate that no music is playing
  STA MUPLA
 
@@ -105,3 +106,4 @@ ENDIF
                         \ See the memory map at the top of page 265 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+

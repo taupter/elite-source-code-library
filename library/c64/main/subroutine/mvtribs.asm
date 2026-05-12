@@ -65,6 +65,7 @@
                         \ See the memory map at the top of page 264 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
  JSR DORND              \ Set A and X to random numbers
 
  CMP #235               \ If the random number in A < 235 (92% chance), jump to
@@ -232,5 +233,6 @@
                         \ See the memory map at the top of page 265 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
  JMP NOMVETR            \ Jump to NOMVETR to return to the main game loop
 

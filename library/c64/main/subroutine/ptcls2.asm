@@ -31,6 +31,7 @@
                         \ See the memory map at the top of page 264 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
                         \ We now set up sprite 1, so we can use it to show the
                         \ explosion burst as a colourful sprite (along with the
                         \ usual cloud of explosion particles)
@@ -320,6 +321,7 @@
                         \ See the memory map at the top of page 265 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
  LDA K%+6               \ Store the z_lo coordinate for the planet (which will
  STA RAND+3             \ be pretty random) in the RAND+3 seed
 

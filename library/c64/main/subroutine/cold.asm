@@ -74,6 +74,7 @@
                         \ See the memory map at the top of page 264 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
  SEI                    \ Disable interrupts while we configure the VIC-II, CIA
                         \ and SID chips and update the interrupt handlers
 
@@ -204,6 +205,7 @@ ENDIF
                         \ See the memory map at the top of page 265 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
  LDA #%100              \ Set L1M to %100, so the default action of the SETL1
  STA L1M                \ routine will configure memory as above
 

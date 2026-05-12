@@ -29,6 +29,7 @@ IF _C64_VERSION
                         \ See the memory map at the top of page 264 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
 ENDIF
 
  LDY VIEW               \ Fetch the laser power for our new view
@@ -225,6 +226,7 @@ ELIF _C64_VERSION
                         \ See the memory map at the top of page 265 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
 ENDIF
 
 IF NOT(_C64_VERSION)

@@ -17,6 +17,7 @@ IF _6502SP_VERSION \ Comment
 \ internal key number n, so for example the value at offset &10 is &71, which is
 \ 113, or ASCII "q", so internal key number &10 is the key number of the "Q"
 \ key.
+\
 ELIF _MASTER_VERSION
 \ ------------------------------------------------------------------------------
 \
@@ -25,14 +26,15 @@ ELIF _MASTER_VERSION
 \ internal key number n, so for example the value at offset &10 is &51, which is
 \ 81, or ASCII "Q", so internal key number &10 is the key number of the "Q"
 \ key.
+\
 ELIF _C64_VERSION
 \ ------------------------------------------------------------------------------
 \
 \ This table translates internal key numbers (i.e. the offset of a key in the
 \ key logger table at KEYLOOK) into ASCII.
+\
 ENDIF
 IF _6502SP_VERSION OR _MASTER_VERSION \ Comment
-\
 \ Valid internal key numbers are Binary Coded Decimal (BCD) numbers in the range
 \ &10 top &79, so they're in the ranges &10 to &19, then &20 to &29, then &30 to
 \ &39, and so on. This means that the other locations - i.e. &1A to &1F, &2A to

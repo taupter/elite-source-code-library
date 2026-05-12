@@ -312,7 +312,8 @@ ENDIF
                         \
                         \ See the memory map at the bottom of page 264 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
-                        \ by Commodore                        \
+                        \ by Commodore
+                        \
                         \ This also sets bits 3 and 5 to configure the Datasette
                         \ as follows:
                         \
@@ -355,6 +356,7 @@ ENDIF
                         \ See the memory map at the bottom of page 264 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
  SEC                    \ Call CopyZeroPage with the C flag set to restore the
  JSR CopyZeroPage       \ contents of zero page from &CE00, which we backed up
                         \ above

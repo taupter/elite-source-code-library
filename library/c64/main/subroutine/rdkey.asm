@@ -43,6 +43,7 @@
                         \ See the memory map at the top of page 264 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
  LDA VIC+&15            \ Clear bit 1 of VIC register &15 to disable sprite 1,
  AND #%11111101         \ so this removes the explosion sprite from the screen
  STA VIC+&15            \ if there is one (so that the explosion burst only
@@ -421,6 +422,7 @@ ENDIF
                         \ See the memory map at the top of page 265 in the
                         \ "Commodore 64 Programmer's Reference Guide", published
                         \ by Commodore
+
  PLA                    \ Retrieve the value of Y from the stack, which we
  TAY                    \ stored at the start of the subroutine, so the value of
                         \ Y is preserved
